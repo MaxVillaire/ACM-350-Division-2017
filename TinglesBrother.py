@@ -9,3 +9,5 @@ N = int(raw_input())
 l = N - 2**(N.bit_length()-1)
 #f(n) = 2l + 1
 print 2*l + 1
+#Below is a working 1 line solution, just for fun
+for N in [int(raw_input())]: print int(2*(N - 2**(N.bit_length()-1))+1)
